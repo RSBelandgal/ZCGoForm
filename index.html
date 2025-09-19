@@ -60,6 +60,7 @@
     <div class="field"><span class="field-name">PLUSCODE :</span><span class="field-value" id="PLUSCODES">&nbsp;</span></div>
     <div class="field"><span class="field-name">OR NO :</span><span class="field-value" id="OR NO">&nbsp;</span></div>
     <div class="field"><span class="field-name">OR DATE :</span><span class="field-value" id="OR DATE">&nbsp;</span></div>
+    <div class="field"><span class="field-name">REMARKS :</span><span class="field-value" id="REMARKS">&nbsp;</span></div>
   </div>
 
   <div id="counter"></div>
@@ -70,7 +71,7 @@
     let sheetData = [];
     let totalRecords = 0;
 
-    const FIELDS_TO_SHOW = [ "DATE RECEIPT", "RELEASED_D", "CONTROL NO", "PIN", "NEW PIN", "APPLICANT NAME", "LOT/SURVEY NO", "LAND AREA", "BARANGAYID_F", "CLASSIFICATIONID_F", "PLUSCODES", "OR NO", "OR DATE" ];
+    const FIELDS_TO_SHOW = [ "DATE RECEIPT", "RELEASED_D", "CONTROL NO", "PIN", "NEW PIN", "APPLICANT NAME", "LOT/SURVEY NO", "LAND AREA", "BARANGAYID_F", "CLASSIFICATIONID_F", "PLUSCODES", "OR NO", "OR DATE", "REMARKS" ];
     const SEARCHABLE_FIELDS = [ "CONTROL NO", "PIN", "NEW PIN", "APPLICANT NAME", "LOT/SURVEY NO" ];
 
     const dropdown = document.getElementById("searchField");
@@ -227,4 +228,5 @@
   </script>
 </body>
 </html>
+
 
